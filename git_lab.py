@@ -62,6 +62,8 @@ def is_prime(n):
 
 def add_numbers(a, b):
     """Returns the sum of two numbers."""
-    return a - b
+    return a + b
 
+def sing_me_a_song():
+    return "and now/ the end is near/ and so I face/ the final curatin"
 

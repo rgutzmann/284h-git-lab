@@ -5,7 +5,8 @@ from git_lab import (
     is_palindrome,
     calculate_triangle_area,
     is_prime,
-    add_numbers
+    add_numbers,
+    sing_me_a_song
 )
 import math
 
@@ -52,5 +53,9 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(add_numbers(2, 3), 5)
         self.assertEqual(add_numbers(-1, 1), 0)
 
+    def test_sing_me_a_song(self):
+        self.assertEqual(sing_me_a_song(), "and now/ the end is near/ and so I face/ the final curatin")
+
 if __name__ == '__main__':
     unittest.main()
+
